@@ -47,7 +47,7 @@ One of the most significant changes in the new experience is the replacement of 
 
 ![A tenant contains multiple domains, each domain enclosing collections and glossaries](./assets/tenant-with-domains.png)
 
-- Each Data Map has 1-5 Domains. Each Domain can have up to [256 collections](https://learn.microsoft.com/purview/concept-best-practices-collections#:~:text=A%20collections%20hierarchy%20in%20a%20Microsoft%20Purview%20can%20support%20as%20many%20as%20256%20collections%2C%20with%20a%20maximum%20of%20eight%20levels%20of%20depth.), with a maximum of eight levels of nested depth.
+- Each Data Map has 1-5 Domains. A collection hierarchy in a Microsoft Purview can support as many as 1000 collections, with a maximum of eight levels of depth ([source](https://learn.microsoft.com/en-us/purview/concept-best-practices-collections)). This doesn't include the root collection.
 
 ### Understanding Collections inside Domains
 
