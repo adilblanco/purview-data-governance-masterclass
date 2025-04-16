@@ -43,7 +43,15 @@ For example, Purview detects a scan failed due to a specific reason, this 'scan 
 
 **🎯 Outcome:** At the end of this task, you will have a better understanding of the Purview APIs available to your organization to build, extend and automate aspects of Microsoft Purview Data Governance.
 
-**🫂 Team Activity:** [5 minutes] Review the [Microsoft Purview APIs](https://learn.microsoft.com/en-us/rest/api/purview) and SDKs available for you to consume in your own applications.
+### Data Map vs Unified Catalog APIs
+
+The Data Map APIs are based on the [Apache Atlas](https://atlas.apache.org) API set and utilised to register data sources, scan assets into collections, and curate data assets.
+
+The new Unified Catalog APIs are bespoke to Microsoft Purview and enable the interaction with the Unified Catalog (Governance Domains, Data Products, Terms, OKRs, etc). These APIs are currently undergoing certification and set to release publicly mid-2025 based on the [Microsoft Purview Roadmap](https://learn.microsoft.com/en-us/purview/whats-new).
+
+The Microsoft Purview Unified Catalog APIs can be used via a community-built Python library called UnifiedCatalogPy available at: https://github.com/olafwrieden/unifiedcatalogpy
+
+**🫂 Team Activity:** [5 minutes] Review the [Microsoft Purview APIs](https://learn.microsoft.com/en-us/rest/api/purview) for Data Map and the [Unified Catalog SDK](https://github.com/olafwrieden/unifiedcatalogpy) (community-built) for you to consume in your own applications.
 
 ---
 
