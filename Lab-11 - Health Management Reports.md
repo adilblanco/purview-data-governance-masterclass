@@ -168,6 +168,8 @@ With a Microsoft Fabric-integrated approach, your possibilities are endless. Whi
 This diagram illustrates the entity relationship for the domain model ([source](https://learn.microsoft.com/en-us/purview/unified-catalog-self-serve-analytics)):
 ![Purview Domain Model ERD](/assets/purview-domain-model-erd.png)
 
+**✨ Pro Tip:** This self-service capability can be used to write Data Quality error records to the data store, enabling further analysis and reporting of the erroneous data. [Read more](https://learn.microsoft.com/en-us/purview/unified-catalog-data-quality-error-records)
+
 ---
 
 **⏸️ Reflection:** The Health Management Reports in Purview provide valuable insights into the health of your data estate. Reflect on the following questions:
