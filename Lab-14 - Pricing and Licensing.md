@@ -82,6 +82,14 @@ All deployments of Microsoft Purview default to the **Basic** tier. Your Data Go
 
 - **Example**: I run 100 Data Management rules and controls in a single day, and each run produces 0.02 DGPU with the **Basic** SKU, then the total DGPU for that day would equal two (0.02 \* 100) DGPU, costing me $30.
 
+### Tracking Governed Assets & Data Processing Units
+
+Microsoft Purview provides an overview of the Cumulative governed assets and Data processing units of the Unified Catalog, enabling cost estimation.
+
+**✍️ Do in Purview:** [5 minutes] Navigating the Settings > Usage Monitoring, review the **Cumulative governed assets** and **Data processing units** metrics.
+
+![Tracking Governed Assets & Data Processing Units](./assets/usage-monitoring.png)
+
 ---
 
 ## Congratulations, that's a wrap!
