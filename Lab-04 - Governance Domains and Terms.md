@@ -92,7 +92,7 @@ Data Governance scalability is achieved by transforming previously static glossa
 
 - **Terms** are grouped under their respective Governance domains as to provide context for each segment of your company, hence aiding the team to differentiate between the meanings if ever a term is shared across different domains.
 - **Policies** attached to the terms provide specific business [health controls](https://learn.microsoft.com/purview/section6-deh-controls#evaluate-your-data-governance-with-data-estate-health), data governance requirements, and terms of use to any data product that the term is applied to.
-- **Custom Attributes (preview)** can be added to the glossary terms to provide more information and context. They can be edited, updated or removed as per business requirements.
+- **Custom Metadata** can be added to the glossary terms to provide more information and context. They can be edited, updated or removed as per business requirements.
 - **Publishing** a Term makes it visible to all users. This [workflow](https://learn.microsoft.com/purview/how-to-create-manage-glossary-terms#publish) step is performed, once a term has been discovered, validated and is ready to be used within a Governance domain.
 - **[Linking](https://learn.microsoft.com/purview/how-to-create-manage-glossary-terms#manage-data-product-links) Data Products** to Terms is a feature that allows glossary terms to become more contextual and accurate to their governance domain.
 - **Related Terms** provide better business context and can be managed from the glossary term page. They can be added as a synonym or a [related term](https://learn.microsoft.com/purview/how-to-create-manage-glossary-terms#manage-related-terms), and can be removed when necessary.
@@ -119,6 +119,19 @@ Data Governance scalability is achieved by transforming previously static glossa
 **⏰ Duration:** 5 minutes
 
 **🎯 Outcome:** At the end of this task, you have verified the term discovery experience using the Enterprise Glossary.
+
+### Exercise: Browsing the Enterprise Glossary
+
+Now that you have created Governance domains and Terms, it's time to explore the [Enterprise Glossary](https://learn.microsoft.com/purview/enterprise-glossary). This is the experience presented to end users to help them discover and understand the terms you just created.
+
+Please note that in order for a term to be visible to business users via the Enterprise Glossary, both the term and the Governance domain its attached too, must be published.
+
+**👉 Do in Purview:** [5 minutes] Navigate to the Enterprise Glossary in Purview and explore the terms you have created.
+
+- Note that the term hierarchy is nicely presented as expected, appropriate information provided, and the published state of the term is reflected.
+- When the term is moved to draft, the change should be reflected in the Enterprise Glossary.
+- When the entire Governance Domain is moved to draft, all terms associated with it should be hidden from the Enterprise Glossary.
+
 
 ### Exercise: Browsing the Enterprise Glossary
 

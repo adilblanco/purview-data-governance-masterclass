@@ -153,6 +153,23 @@ The data quality health report details page contains 2 visuals:
 - **Pass and fail record count by rule type**  
   The total number of records that have passed or failed each rule type.
 
+## Task 4: Self-Service Analytics and Insights (preview)
+
+⏰ Duration: 5 minutes
+
+🎯 Outcome: At the end of this task you will understand how to use the Self-Service Analytics and Insights capability to create custom reports over the Purview domain model.
+
+When the built-in reports are not enough, you can use the [Self-Service Analytics and Insights](https://learn.microsoft.com/en-us/purview/purview-dg-self-service-analytics-and-insight) capability to create custom reports by periodically exporting the Purview domain model to a supported data store (e.g. Azure Data Lake Storage Gen2 or Microsoft Fabric OneLake), then using Power BI to create a Semantic Model and Report(s).
+
+With a Microsoft Fabric-integrated approach, your possibilities are endless. While many teams are simply looking for custom reporting, consider the possibilities of integrating the data with [Microsoft Fabric Activator](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/data-activator/activator-introduction) to trigger custom conditional logic, or Fabric Notebooks that modify Purview data via APIs. This approach could also be used to synchronize Purview data with other systems, such as feeding the latest internal and industry glossary to an AI Chat solution.
+
+**Good to know:** The export frequency is every 24 hours. vNet integrated Storage Accounts are not yet supported. This may change as the feature matures and transitions from preview to GA.
+
+This diagram illustrates the entity relationship for the domain model ([source](https://learn.microsoft.com/en-us/purview/unified-catalog-self-serve-analytics)):
+![Purview Domain Model ERD](/assets/purview-domain-model-erd.png)
+
+**✨ Pro Tip:** This self-service capability can be used to write Data Quality error records to the data store, enabling further analysis and reporting of the erroneous data. [Read more](https://learn.microsoft.com/en-us/purview/unified-catalog-data-quality-error-records)
+
 ---
 
 **⏸️ Reflection:** The Health Management Reports in Purview provide valuable insights into the health of your data estate. Reflect on the following questions:

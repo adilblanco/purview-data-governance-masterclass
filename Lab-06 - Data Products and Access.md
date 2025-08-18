@@ -39,6 +39,10 @@ While its tempting to create a one-to-one mapping between data assets and Data p
 
 **✨ Pro Tip:** To speed up your curation experience, explore the option to let Copilot ([licence dependant](https://learn.microsoft.com/purview/copilot-in-purview-overview)) discover recommended data assets to associate with each Data product.
 
+**✨ Pro Tip:** Did you know you can edit the contact description for data product contacts directly within Purview? If "Data product owner" is not descriptive enough, feel free to update it to include more context about their responsibilities.
+
+![Edit Contact Description](./assets/edit-contact-description.png)
+
 ## Task 2: Defining Data Product Access
 
 **⏰ Duration:** 15 minutes
