@@ -41,7 +41,7 @@ The reports are as follows:
 
 - **Classic classifications**
 
-  This report helps identify and track the types of data classified within the data estate, such as financial or government data, and shows trends over time. It includes information on the number of classified sources, files, and tables, as well as the top classifications applied across the datamap.
+  This report helps identify and track the types of data classified within the data estate, such as financial or government data, and shows trends over time. It includes information on the number of classified sources, files, and tables, as well as the top classifications applied across the Data Map.
 
 - **Classic data stewardship**
 
