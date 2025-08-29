@@ -181,4 +181,4 @@ This diagram illustrates the entity relationship for the domain model ([source](
 
 At this stage we have covered the key portal interactions by various Discovery, Curation, and Reporting personas. In the next lab, you will learn about the Business Continuity approach to Microsoft Purview.
 
-👉 [Continue: Lab 12](./Lab-12%20-%20Business%20Continuity.md)
+👉 [Continue: Lab 12](./Lab-12%20-%20Observability.md)
