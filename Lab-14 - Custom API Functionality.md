@@ -57,4 +57,4 @@ The Microsoft Purview Unified Catalog APIs can be used via a community-built Pyt
 
 **⏸️ Reflection:** You now have a better understanding of the Purview APIs available to your organization to build, extend and automate aspects of Microsoft Purview Data Governance. Lastly, let's review the pricing and licensing for Microsoft Purview.
 
-👉 [Continue: Lab 14](./Lab-14%20-%20Pricing%20and%20Licensing.md)
+👉 [Continue: Lab 15](./Lab-15%20-%20Pricing%20and%20Licensing.md)
